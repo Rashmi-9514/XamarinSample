@@ -34,29 +34,30 @@ namespace Sample.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            SetContentView(Resources.activity_main);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 
             init();
 
             initClevertap();
 
-            userLoginPushProfile();
+            //userLoginPushProfile();
 
-            sendEvents();
+            //sendEvents();
 
-            notification();
+            //notification();
 
-            inapp();
+            //inapp();
 
-            inbox();
+            //inbox();
 
-            dynamicVariables();
+            //dynamicVariables();
 
-            displayUnit();
+            //displayUnit();
 
-            featureFlag();
+            //featureFlag();
 
-            productConfig();
+            //productConfig();
 
         }
 

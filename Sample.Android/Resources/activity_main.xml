@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Sample.MainPage">
+<?xml version="1.0" encoding="utf-8"?>
 
-    <ScrollView>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+>
         <StackLayout>
             <Frame BackgroundColor="#2196F3" Padding="15" CornerRadius="0">
                 <Label Text="CleverTap Xamarin Demo App" HorizontalTextAlignment="Center" TextColor="Orange" FontSize="27"/>
@@ -25,5 +26,3 @@
             <Button Text="Product Config" Clicked="productConfig" />
         </StackLayout>
     </ScrollView>
-
-</ContentPage>
