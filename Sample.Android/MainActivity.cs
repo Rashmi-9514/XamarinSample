@@ -34,7 +34,7 @@ namespace Sample.Droid
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resources.activity_main);
+            SetContentView(Resource.layout.activity_main);
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
 
             init();
